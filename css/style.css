@@ -19,19 +19,32 @@ body {
     padding: 2rem;
     color: var(--text-color);
 }
+
+.main {
+    background-color: var(--light-color);
+    margin-top: -12rem;
+    height: 88vh;
+    padding: 10rem 2rem 3rem 2rem; /*top right bottom left*/
+}
+
+img {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
 .header {
     height: 95vh;
     background-image:linear-gradient(to bottom right,var(--medium-color), var(--light-color)), url("../img/jeep.jpg");
     background-size: cover;
     background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 .text-box {
     position: absolute;
     top: 40%;
     left: 50%;
-    text-align: justify;
     transform: translate(-50%,-50%);
 }
 
@@ -248,9 +261,9 @@ body {
 
 .features {
     padding: 8rem 0;
-    height: 85vh;
+    height: 90vh;
     background-image: linear-gradient(to right bottom, var(--light-color),
-    var(--dark-color)), url('../img/jeep.jpg');
+    var(--dark-color)), url('../img/ride.jpg');
     background-size: cover;
     background-position: bottom;
     transform: skewY(-7deg);
@@ -262,7 +275,7 @@ body {
 }
 
 .feature-box {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(152, 219, 75, 0.8);
     font-size: 2rem;
     padding: 1.5rem;
     text-align: center;
@@ -287,7 +300,7 @@ body {
     text-align: center;
     background-color: var(--dark-color);
     padding: 2rem;
-    color: wheat
+    color: wheat;
 }
 
 .social a {
